@@ -1,5 +1,6 @@
 body {
     min-height: 100vh;
+    width: 100%;
     position: relative;
     font-family: 'Oswald';
 }
@@ -35,6 +36,11 @@ h3 {
     transform: translate(-50%, 50%);
 }
 
+div.row {
+    width: 100%;
+    margin: 0;
+}
+
 .feature-section::before {
     content: "";
     position: absolute;
@@ -56,12 +62,20 @@ h3 {
 }
 
 .container {
-    padding-bottom: 50px;
     background-color: #f1f1f1;
 }
 
 .about-text {
     font-family: 'Merriweather';
+}
+
+.spacer {
+    height: 40px;
+    width: 40px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: transparent;
 }
 
 .signiture {
