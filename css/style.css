@@ -1,3 +1,5 @@
+/* Global */
+
 body {
     min-height: 100vh;
     width: 100%;
@@ -9,6 +11,15 @@ nav .navbar-nav .active {
     color: #edd521!important;
 }
 
+.spacer-nav {
+    height: 56px;
+    width: 40px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
 h1 {
     z-index: 2;
 }
@@ -16,6 +27,37 @@ h1 {
 h3 {
     z-index: 2;
 }
+
+div.row {
+    width: 100%;
+    margin: 0;
+}
+
+.spacer-footer {
+    height: 40px;
+    width: 40px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+a i {
+    color: #f8f9fa;
+}
+
+a i:hover {
+    color: #bfbfbf;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #595959;
+}
+
+/* About Me */
 
 .feature-section {
     background-color: #edd521;
@@ -34,11 +76,6 @@ h3 {
     left: 0;
     z-index: 1;
     transform: translate(-50%, 50%);
-}
-
-div.row {
-    width: 100%;
-    margin: 0;
 }
 
 .feature-section::before {
@@ -69,31 +106,43 @@ div.row {
     font-family: 'Merriweather';
 }
 
-.spacer {
-    height: 40px;
-    width: 40px;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: transparent;
-}
-
 .signiture {
     font-family: 'Shadows Into Light';
     font-size: 2em;
 }
 
-a i {
-    color: #f8f9fa;
-}
+/* Portfolio */
 
-a i:hover {
-    color: #bfbfbf;
+.portfolio-hero {
+    height: 30vh;
+    background-color: #edd521;
+    position: relative;
+    overflow: hidden;
 }
-
-footer {
+/*
+.portfolio-hero::after {
+    content: "";
     position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: #595959;
+    height: 100vh;
+    width: 160vw;
+    background-color: #e0c709;
+    border-radius: 50%;
+    bottom: -20vh;
+    left: 0;
+    z-index: 1;
+    transform: translate(-50%, 50%);
+}
+*/
+.portfolio-hero::before {
+    content: "";
+    position: absolute;
+    height: 85vh;
+    width: 145vw;
+    background-color: transparent;
+    border-radius: 50%;
+    bottom: -15vh;
+    left: 0;
+    z-index: 2;
+    transform: translate(-50%, 50%);
+    border: 70px #e0c709 solid ;
 }
