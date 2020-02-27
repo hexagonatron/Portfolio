@@ -7,6 +7,10 @@ body {
     font-family: 'Oswald';
 }
 
+nav {
+    background-color: #595959;
+}
+
 nav .navbar-nav .active {
     color: #edd521!important;
 }
@@ -138,8 +142,6 @@ footer {
     border: 70px #e0c709 solid ;
 }
 
-
-
 .card {
     font-family: 'Merriweather';
     box-sizing: border-box;
@@ -174,4 +176,16 @@ footer {
     padding: 6px;
     margin: 0;
     font-size: 1.5rem;
+}
+
+.git-icon {
+    margin-bottom: 0;
+}
+
+.card-body i {
+    color: #595959;
+}
+
+.card-body i:hover {
+    color: #edd521;
 }
