@@ -145,6 +145,7 @@ footer {
 .card {
     font-family: 'Merriweather';
     box-sizing: border-box;
+    height: 100%;
 }
 
 .card-img-top {
@@ -180,6 +181,11 @@ footer {
 
 .git-icon {
     margin-bottom: 0;
+}
+
+.card-body {
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .card-body i {
