@@ -19,6 +19,8 @@ This website was designed to act as a basis for my portfolio. It contains an ind
 * HTML
 * CSS
 * Bootstrap
+* Google Fonts
+* Font Awesome
 
 ## Author
 
