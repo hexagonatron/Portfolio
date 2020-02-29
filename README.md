@@ -19,3 +19,7 @@ This portfolio was designed to act as a basis for my portfolio. It contains an i
 * HTML
 * CSS
 * Bootstrap
+
+## Author
+
+Ben Fawcett
