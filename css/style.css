@@ -199,6 +199,19 @@ footer {
 
 /* Contact */
 
+.social-links {
+    font-size: 4rem;
+}
+
+.social-links i {
+    color: #343a40;
+    margin: 0 20px;
+}
+
+.social-links i:hover {
+    color: #e0c709;
+}
+
 input {
     width: 100%;
 }
