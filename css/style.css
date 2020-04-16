@@ -5,6 +5,7 @@ body {
     width: 100%;
     position: relative;
     font-family: 'Oswald';
+    overflow: auto;
 }
 
 nav {
